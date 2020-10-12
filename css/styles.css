@@ -23,6 +23,17 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
 .container-fluid {
   padding: 3% 15%;
 }
@@ -52,4 +63,50 @@ h1 {
 
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+/* feature section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #06b3f8;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: rgb(3, 66, 75);
+}
+
+/* Testimonial section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #0a58e9ad;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #0a58e9ad;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.logo {
+  width: 15%;
+  margin: 40px;
 }
