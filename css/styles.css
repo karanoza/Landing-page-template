@@ -127,3 +127,37 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+/* footer section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px;
+}
+/* Media queries */
+
+#cta {
+  background-color: #0a58e9ad;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
